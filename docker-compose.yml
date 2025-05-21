@@ -1,6 +1,6 @@
 services:
-  openjdk-app:
-    build: .
-    image: openjdk:8-slim
+  java-app:
+    build: ./image
+    image: java-app:1.0
     ports:
       - '9999:9999'
